@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2658E52F3024697C0088C7DD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2658E52E302469650088C7DD /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2658E50230245E770088C7DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		2658E4F230245E760088C7DD /* MovieDiscovery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieDiscovery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2658E50130245E770088C7DD /* MovieDiscoveryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieDiscoveryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2658E50B30245E770088C7DD /* MovieDiscoveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieDiscoveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2658E52E302469650088C7DD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +48,11 @@
 		2658E50E30245E770088C7DD /* MovieDiscoveryUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MovieDiscoveryUITests;
+			sourceTree = "<group>";
+		};
+		2658E53230246A5C0088C7DD /* Docs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Docs;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +85,8 @@
 		2658E4E930245E760088C7DD = {
 			isa = PBXGroup;
 			children = (
+				2658E53230246A5C0088C7DD /* Docs */,
+				2658E52E302469650088C7DD /* README.md */,
 				2658E4F430245E760088C7DD /* MovieDiscovery */,
 				2658E50430245E770088C7DD /* MovieDiscoveryTests */,
 				2658E50E30245E770088C7DD /* MovieDiscoveryUITests */,
@@ -109,6 +121,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				2658E4F430245E760088C7DD /* MovieDiscovery */,
+				2658E53230246A5C0088C7DD /* Docs */,
 			);
 			name = MovieDiscovery;
 			packageProductDependencies = (
@@ -236,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2658E52F3024697C0088C7DD /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +416,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -433,6 +448,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
