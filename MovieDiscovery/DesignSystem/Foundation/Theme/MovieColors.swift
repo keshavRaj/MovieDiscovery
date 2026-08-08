@@ -35,7 +35,6 @@ struct BorderColors {
 struct AccentColors {
     let primary: Color
     let disabled: Color
-    let off: Color
 }
 
 struct FeedbackColors {
