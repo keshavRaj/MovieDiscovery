@@ -22,10 +22,12 @@ struct MovieHomeView: View {
                 .tabItem {
                     Label("Watchlist", systemImage: "star.fill")
                 }
-            Text("Settings")
-                .tabItem {
-                    Label("Settings", systemImage: "gear")
-                }
+            NavigationView {
+                SettingsView()
+            }
+            .tabItem {
+                Label("Settings", systemImage: "gear")
+            }
         }
     }
 }

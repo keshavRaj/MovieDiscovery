@@ -24,7 +24,7 @@ struct LightPalette: MoviePalette {
     
     private static func makeSurfaceColors() -> SurfaceColors {
         SurfaceColors(
-            background: Color(hex: "#2D2D34"),
+            background: Color(hex: "#FFFFFF"),
             normal: Color(hex: "#0F0F0F").opacity(0.75),
             elevated: Color(hex: "#16161A")
         )
@@ -32,7 +32,7 @@ struct LightPalette: MoviePalette {
     
     private static func makeTextColors() -> TextColors {
         TextColors(
-            primary: Color(hex: "#FFFFFF"),
+            primary: Color(hex: "#2D2D34"),
             secondary: Color(hex: "#9CA3AF"),
             tertiary: Color(hex: "#6B7280")
         )
