@@ -11,6 +11,8 @@ import SwiftUI
 
 struct LightPalette: MoviePalette {
     let colors: MovieColors
+    let typography: MovieTypography = .default
+    let spacing: MovieSpacing = .default
     
     init() {
         colors = MovieColors(

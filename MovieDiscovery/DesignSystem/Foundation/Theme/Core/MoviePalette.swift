@@ -7,4 +7,6 @@
 
 protocol MoviePalette {
     var colors: MovieColors { get }
+    var typography: MovieTypography { get }
+    var spacing: MovieSpacing { get }
 }

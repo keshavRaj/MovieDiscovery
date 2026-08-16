@@ -9,6 +9,8 @@ import SwiftUI
 
 struct DarkPalette: MoviePalette {
     let colors: MovieColors
+    let typography: MovieTypography = .default
+    let spacing: MovieSpacing = .default
     
     init() {
         colors = MovieColors(
